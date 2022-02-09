@@ -1,0 +1,139 @@
+body{
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Header*/
+
+.nav-bar-c{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 0px 20px;
+}
+.nav-bar-c h1{
+    color: rgb(255, 38, 0);
+    font-weight: 700;
+}
+
+.desktop-nav-bar-links ul{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    margin: 0;
+
+}
+
+.desktop-nav-bar-links ul li {
+    padding: 0px 40px;
+}
+
+.link-a-nav{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.link-a-nav-login{
+    color: #fff;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(255, 38, 0) ;
+    transition: .3s;
+}
+
+.link-a-nav-login:hover{
+    background-color: #fff;
+    color: rgb(255, 38, 0);
+}
+
+.mobile-menu-img{
+    width: 45px;
+    height: 35px;
+    cursor: pointers;
+}
+
+.mobile-menu-traco{
+    display: none;
+}
+.mobile-d-flex{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .mobile-menu-traco{
+        display: flex;
+    }
+    .desktop-nav-bar-links{
+        display: none;
+    }
+    .mobile-nav{
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9999;
+
+    }
+    .mobile-d-flex{
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        justify-content: space-between;
+        padding: 0;
+        list-style: none;
+        margin: 0;
+    }
+    .mobile-d-flex li{
+        padding: 88px;
+    }
+    .mobile-d-flex a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+}
+
+/*Orçamento*/
+
+.margin-orca{
+    gap: 0.7rem;
+}
+.st-oraca{
+    font-weight:bold;
+    color: black;
+}
+.titulo-oraca{
+    color:rgb(255, 38, 0);
+    font-weight: bold;
+    font-size: 4rem;
+}
+.btn-oraca{
+    margin-top: 2rem;
+    width: 30rem;
+    padding: 1rem;
+    color: #fff;
+    border-radius: 10px;
+    border-style: none;
+    border-color: none;
+    font-size: 1.5rem;
+    background-color: rgb(255, 38, 0);
+    transition: .3s;
+}
+
+.btn-oraca:hover{
+    background-color: white;
+    color: rgb(255, 38, 0);
+    border-color: rgb(255, 38, 0);
+    border-style: solid;
+}
+
+@media (max-width:728px) {
+    .st-oraca{
+        margin-top: 2rem;
+    }
+}
