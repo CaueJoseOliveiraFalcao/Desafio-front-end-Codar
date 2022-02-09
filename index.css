@@ -99,7 +99,9 @@ body{
 }
 
 /*Orçamento*/
-
+.oracamento{
+    margin-top: 8rem;
+}
 .margin-orca{
     gap: 0.7rem;
 }
@@ -112,6 +114,7 @@ body{
     font-weight: bold;
     font-size: 4rem;
 }
+
 .btn-oraca{
     margin-top: 2rem;
     width: 30rem;
@@ -133,7 +136,92 @@ body{
 }
 
 @media (max-width:728px) {
-    .st-oraca{
-        margin-top: 2rem;
+    .oracamento{
+        margin-top: 1rem;
     }
+    .st-oraca{
+        margin-top: 2rem!important;
+        margin: 0 auto;
+        font-size: 1rem;
+    }
+    .titulo-oraca{
+        margin: 0 auto;
+        font-size: 2.0rem;
+    }
+    .btn-oraca{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+
+/*form*/
+.formulario{
+    margin-top: 20rem!important;
+}
+.img-icon{
+    margin-right: 1rem;
+    width: 20px;
+}
+
+.li-custom{
+    font-weight: bold;
+    font-size: 20px;
+}
+.disposicao{
+    font-weight: 700;
+    font-size: 20px;
+}
+#tel{
+    background-color: rgb(216, 216, 216);
+    border-style: none;
+    padding: 0.8rem;
+    border-radius: 10px;
+}
+#confi{
+    background-color:rgb(255, 38, 0);
+    color: #fff;
+    border-style: none;
+    padding: 0.8rem;
+    border-radius: 10px;
+    min-width: 200px;
+    transition: .3s;
+}
+#confi:hover{
+    background-color: #fff;
+    color: rgb(255, 38, 0);
+    border-color: rgb(255, 38, 0);
+    border-style: solid;
+}
+@media (max-width:426px) {
+    .formulario{
+        margin-top: 3rem!important;
+    }
+}
+
+/*cards*/
+.cards{
+    margin: 10rem 0rem;
+}
+
+.card{
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bola{
+    background-color: rgb(255, 38, 0);
+    width: 90px;
+    height: 90px;
+    border-radius: 100% ;
+}
+.empresa-card{
+    font-weight: 900;
+    color: black;
+}
+
+.texto-card{
+    font-weight: 400;
 }
