@@ -198,6 +198,14 @@ body{
     .formulario{
         margin-top: 3rem!important;
     }
+    #tel{
+        margin-top: 1rem;
+        width: 100%;
+    }
+    #confi{
+        margin-top: 1rem;
+        width: 100%;
+    }
 }
 
 /*cards*/

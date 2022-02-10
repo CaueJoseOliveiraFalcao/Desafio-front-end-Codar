@@ -8,7 +8,7 @@ function menuop() {
     block_pag.style.display = 'none'
     menumobile.style.display = 'flex'
     mobilediv.style.display = 'block'
-    img_con.setAttribute('src', 'assets/marca-x (1).png')
+    img_con.setAttribute('src', 'assets/x.png')
     contador += 1
     if (contador >= 2) {
         block_pag.style.display = 'block'
